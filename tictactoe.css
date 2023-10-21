@@ -1,0 +1,141 @@
+
+body{
+	background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );
+	background-color:rgba(151, 151, 151, 0.106);
+background-repeat: none;
+background-size: cover;
+background-position: center;
+height: 84vh;
+}
+
+h1 {
+	color: red;
+	margin-bottom: -5px;
+	text-shadow: 2px 2px 2px white;
+	font-size: 5rem;
+}
+p {
+	margin-bottom: -10px;
+}
+.ui {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.row {
+	display: flex;
+}
+.cell {
+	border: none;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	background:none;
+}
+.cell:active {
+	outline: none;
+}
+/* 3*3 Grid */
+#b1{
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+}
+
+#b2 {
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+	border-left: 2px solid white;
+}
+
+#b3 {
+	border-bottom: 2px solid white;
+	border-left: 2px solid white;
+}
+
+#b4 {
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+}
+	
+#b5 {
+	border: 2px solid white;
+}
+
+#b6 {
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	border-left: 2px solid white;
+}
+
+#b7 {
+	border-top: 2px solid white;
+	border-right: 2px solid white;
+}
+
+#b8 {
+	border-top: 2px solid white;
+	border-right: 2px solid white;
+	border-left: 2px solid white;
+}
+
+#b9 {
+	border-top: 2px solid white;
+	border-left: 2px solid white;
+}
+/* Reset Button */
+#but {
+	box-sizing: border-box;
+	width: 95px;
+	height: 40px;
+	border: 1px solid dodgerblue;
+	margin-left: auto;
+	border-radius: 8px;
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+
+	background-color: whitesmoke;
+	color: dodgerblue;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#but:hover{
+	background-color: dodgerblue;
+	color: whitesmoke;
+	transition: background-color 0.2s ease-in-out;
+}
+
+/* Player turn space */
+#print {
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+	color: dodgerblue;
+	font-size: 20px;
+}
+
+/* Main Container */
+#main {
+	margin-top: 8rem;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+/* Game Instruction Text */
+#ins {
+	font-family: Verdana,Geneva,
+					Tahoma, sans-serif;
+	/* color: dodgerblue; */
+	font-weight: 600;
+	text-shadow: 1px 1px rgb(232, 232, 232);
+}
+
+input{
+	color: white;
+	font-size: 2rem;
+}
